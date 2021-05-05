@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ObjectAssociation",
-    platforms: [.iOS(.v10), .macOS(.v10_15), .tvOS(SupportedPlatform.TVOSVersion.v10)],
+    platforms: [.iOS(.v10)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
